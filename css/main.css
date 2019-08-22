@@ -1,0 +1,207 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Blinker', 'Lato', serif;
+  color:#2b2b2b;
+}
+
+#about, #history, #work, #contact {
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float:  left;
+}
+
+/*****HEADER*****/
+
+header {
+  height:500px;
+  background-image: url('../images/christin-hume-mfB1B1s4sMc-unsplash.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 30px;
+  color:white;
+  padding-left: 35px
+  padding-top: 20px;
+}
+
+header nav {
+  float: right;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:20px;
+  padding: 0 10px;
+  display: inline;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #f8f8ff;
+}
+
+/*****ABOUT*****/
+
+#about {
+  background-color: #fff2e6;
+}
+
+#about .full-width{
+  height: 175px;
+}
+
+#about h2 {
+  color: black;
+  font-family: 'Blinker', serif;
+  font-size: 24px;
+  padding-left:30px;
+  padding-top: 20px;
+}
+
+#about p {
+  font-family: 'Lato', serif;
+  font-size:18px;
+  color:black;
+  line-height:30px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top: 15px;
+}
+
+/*****HISTORY*****/
+
+#history {
+  background-color: #ffe6cc;
+}
+
+#history .full-width {
+  height: 200px;
+}
+
+#history h2 {
+  color: black;
+  font-family: 'Lato', serif;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#history ul {
+  color: black;
+  font-family: 'Lato', serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+/*****WORK*****/
+
+#work {
+  background-color: #ffd9b3;
+  text-align: center;
+}
+
+#work .full-width {
+  height: 500px;
+}
+
+#work h2 {
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 15px;
+  padding-left: 425px;
+  padding-top: 25px;
+  text-align: center;
+  width: 350px;
+}
+
+#work p {
+  color:black;
+  font-family: 'Lato', serif;
+  font-size: 20px;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+  background-color: #ffe6cc;
+}
+
+#contact .full-width {
+  height: 200px;
+}
+
+#contact h3 {
+  color: black;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#contact p{
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#contact ul {
+  align-items: center;
+  padding-left: 520px;
+  padding-top: 15px;
+}
+
+#contact ul li {
+  display: inline;
+}
+
+#contact ul img {
+  height: 55px;
+  width: 55px;
+}
+
+/*****FOOTER*****/
+
+#footer {
+  background-color: #fff2e6;
+  height: 25px;
+  width: 100%;
+}
+
+#footer p{
+  color: grey;
+  font-size: 5px;
+}
